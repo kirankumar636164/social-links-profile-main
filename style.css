@@ -1,0 +1,70 @@
+body{
+    background-color:  hsl(0, 0%, 8%);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card-body{
+    background-color: hsl(0, 0%, 12%);
+    height: 500px;
+    width: 300px;
+    border-radius: 5%;
+    
+}
+.profile{
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin: 10% 0% 10% 70%;
+    padding: 0;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+.place{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 70%;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+.role{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 70%;
+}
+.social-buttons{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 20px;
+    margin-left:25px;
+    padding: 12px;
+    text-align: center;
+    width: 250px; 
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: white; font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0;
+}
